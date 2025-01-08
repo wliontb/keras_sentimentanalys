@@ -1,4 +1,3 @@
-```markdown
 # Dự án Phân tích Cảm xúc (Sentiment Analysis) với IMDB Dataset
 
 Dự án này sử dụng Keras và TensorFlow để xây dựng một mô hình phân tích cảm xúc trên bộ dữ liệu IMDB.
@@ -7,11 +6,11 @@ Dự án này sử dụng Keras và TensorFlow để xây dựng một mô hình
 
 Dưới đây là các bước cài đặt môi trường và chạy dự án:
 
-**1. Cài đặt Python:**
+### 1. Cài đặt Python
 
-Tải xuống và cài đặt phiên bản Python phù hợp từ trang web chính thức: [https://www.python.org/](https://www.python.org/)
+Tải xuống và cài đặt phiên bản Python từ trang web chính thức: [https://www.python.org/](https://www.python.org/)
 
-**2. Cài đặt các thư viện:**
+### 2. Cài đặt các thư viện
 
 Sử dụng file `requirements.txt` để cài đặt các thư viện cần thiết:
 
@@ -19,37 +18,34 @@ Sử dụng file `requirements.txt` để cài đặt các thư viện cần thi
 pip install -r requirements.txt
 ```
 
-**3. Chạy Jupyter Notebook:**
+### 3. Chạy Jupyter Notebook
+
+Khởi động Jupyter Notebook bằng lệnh sau:
 
 ```bash
 jupyter notebook
 ```
 
-Trình duyệt web sẽ tự động mở ra giao diện Jupyter Notebook. Mở file `sentiment_analysis.ipynb` và chạy các cell code.
+Trình duyệt web sẽ mở giao diện Jupyter Notebook. Tìm và mở file `KerasSentimentAnalys.ipynb`, sau đó chạy từng cell code.
 
+## Mô tả File
 
-## Mô tả file
+* **`KerasSentimentAnalys.ipynb`**: Jupyter Notebook chứa mã nguồn phân tích cảm xúc.
+* **`requirements.txt`**: Danh sách các thư viện cần thiết.
+* **`README.md`**: Tài liệu hướng dẫn dự án này.
 
-* `sentiment_analysis.ipynb`: Jupyter Notebook chứa code phân tích cảm xúc.
-* `requirements.txt`: Danh sách các thư viện cần thiết.
-* `README.md`: File hướng dẫn này.
+## Cách Sử dụng
 
-
-
-## Sử dụng
-
-1. Mở file `sentiment_analysis.ipynb` trong Jupyter Notebook.
+1. Mở file `KerasSentimentAnalys.ipynb` trong Jupyter Notebook.
 2. Chạy từng cell code theo thứ tự từ trên xuống dưới.
-3. Xem kết quả và biểu đồ trực quan hóa.
+3. Quan sát kết quả và các biểu đồ trực quan hóa.
 
+## Thành viên Đóng góp
 
-
-## Thành viên đóng góp
-
-* [Nguyễn Viết Tuấn Anh]
-
+* **Nguyễn Viết Tuấn Anh**
 
 ## Liên hệ
 
-[matches.enolam@gmail.com]
-```
+Nếu có bất kỳ câu hỏi nào, vui lòng liên hệ qua email:
+
+[matches.enolam@gmail.com](mailto:matches.enolam@gmail.com)
