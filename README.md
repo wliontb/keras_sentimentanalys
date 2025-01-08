@@ -6,7 +6,7 @@ Dự án này sử dụng Keras và TensorFlow để xây dựng một mô hình
 
 Dưới đây là các bước cài đặt môi trường và chạy dự án:
 
-### 1. Cài đặt Python
+### 1. Cài đặt Python(lưu ý là dùng phiên bản 3.12)
 
 Tải xuống và cài đặt phiên bản Python từ trang web chính thức: [https://www.python.org/](https://www.python.org/)
 
